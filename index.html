@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kern · AI 应用开发者</title>
+  <meta name="description" content="用可运行的项目与有观点的文章，证明具体的能力。">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">亦安</a>
+      <button class="nav__toggle" aria-label="菜单" aria-expanded="false">MENU</button>
+      <ul class="nav__links">
+        <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="projects.html">Work</a></li>
+        <li><a class="nav__link" href="writing.html">Writing</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <span class="hero__eyebrow"><span class="dot">●</span> AI Trainer</span>
+      <h1 class="hero__title">训出来的，<br>要能跑起来。</h1>
+      <!-- TODO(内容): 副标题为占位，待用户提供真实项目与价值主张后替换 -->
+      <p class="hero__subtitle">从数据到部署，每一步都留得住、讲得清、复现得了。</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="projects.html">看我的项目</a>
+        <a class="btn btn-secondary" href="about.html">了解我</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="intro">
+    <!-- TODO(内容): 「花名」「关注方向」为占位，待用户提供真实内容后替换 -->
+    <div class="container container--narrow">
+      <span class="label">Focus</span>
+      <h2 class="section-title">训模型，也记清楚每一步</h2>
+      <div class="prose">
+        <p>我是亦安，做 AI 训练。比起刷榜和 demo，我更在意模型进业务之后还稳不稳、链路能不能复现、每个环节为什么这样设。</p>
+        <p>最近在琢磨小模型微调、评估体系和上线后的效果监控。如果你也在把训练链路跑通，欢迎一起交流。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="container">
+      <span class="label">Selected Work</span>
+      <h2 class="section-title">精选项目</h2>
+      <ul class="entry-list" data-projects></ul>
+      <div style="margin-top:var(--space-6);">
+        <a class="btn btn-secondary" href="projects.html">查看全部项目 →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="writing">
+    <div class="container">
+      <span class="label">Writing</span>
+      <h2 class="section-title">精选文章</h2>
+      <div class="empty-state">
+        <div class="empty-state__title">文章正在路上</div>
+        <p>第一批内容还在整理，<a class="text-link" href="projects.html">先看看我的项目</a>。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container container--narrow">
+      <span class="label">Contact</span>
+      <h2 class="section-title">想聊点具体的？</h2>
+      <p class="section__desc">如果你是同行，或想一起做点能跑起来的东西，直接写信给我——</p>
+      <p style="margin-top:var(--space-5);">
+        <a class="text-link" href="mailto:h09592609@gmail.com" style="font-family:var(--font-mono); font-size:1.25rem; letter-spacing:.02em;">h09592609@gmail.com</a>
+      </p>
+      <div style="margin-top:var(--space-6);">
+        <a class="btn btn-secondary" href="about.html">或先了解我</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__name">Kern</span>
+        <p class="footer__tagline">用可运行的项目，证明具体的能力。</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <div class="footer__col-title">Pages</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Work</a></li>
+            <li><a href="writing.html">Writing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">Elsewhere</div>
+          <ul class="footer__links">
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="mailto:h09592609@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="footer__meta">© 2026 Kern</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

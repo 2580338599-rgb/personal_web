@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系 · Kern</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">亦安</a>
+      <button class="nav__toggle" aria-label="菜单" aria-expanded="false">MENU</button>
+      <ul class="nav__links">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="projects.html">Work</a></li>
+        <li><a class="nav__link" href="writing.html">Writing</a></li>
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero hero--short">
+    <div class="container">
+      <span class="hero__eyebrow"><span class="dot">●</span> Contact</span>
+      <h1 class="hero__title">联系我</h1>
+      <p class="hero__subtitle">想聊项目、合作，或只是打个招呼，都欢迎。</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <p class="section__desc" style="margin-bottom:var(--space-7);">
+        最快的方式是发邮件到 <a class="text-link" href="mailto:h09592609@gmail.com">h09592609@gmail.com</a>，
+        或通过下面的表单留言。
+      </p>
+      <form class="form" onsubmit="alert('这是占位表单，请直接发邮件联系。'); return false;">
+        <div class="form__field">
+          <label class="form__label" for="name">称呼</label>
+          <input class="form__input" id="name" type="text" placeholder="怎么称呼你">
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="email">邮箱</label>
+          <input class="form__input" id="email" type="email" placeholder="你的邮箱">
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="message">想说的话</label>
+          <textarea class="form__textarea" id="message" placeholder="简单说下来意"></textarea>
+        </div>
+        <button class="btn-submit" type="submit">发送</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__name">Kern</span>
+        <p class="footer__tagline">用可运行的项目，证明具体的能力。</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <div class="footer__col-title">Pages</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Work</a></li>
+            <li><a href="writing.html">Writing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">Elsewhere</div>
+          <ul class="footer__links">
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="mailto:h09592609@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="footer__meta">© 2026 Kern</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
