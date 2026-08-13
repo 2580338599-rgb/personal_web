@@ -6,22 +6,22 @@ const SITE = {
   name: "亦安",
   role: "AI Trainer",
   tagline: "训出来的，要能跑起来。",
-  email: "h09592609@gmail.com",
-  github: "https://github.com/dashboard"
+  email: "2580338599@qq.com",
+  github: "https://github.com/2580338599-rgb"
 };
 
 const PROJECTS = [
   {
     slug: "data-annotation",
     title: "数据标注",
-    desc: "TODO(内容): 数据标注项目的一句话简介，待用户补充。",
-    tags: ["TODO: 技术栈"],
+    desc: "为模型训练构建高质量标注数据集，覆盖数据清洗、标注规范与质量抽检。",
+    tags: ["Python", "Label Studio", "数据清洗"],
     image: "https://picsum.photos/seed/annotation/800/450",
-    link: "https://github.com/dashboard",
+    link: "https://github.com/2580338599-rgb",
     demo: "#",
-    highlights: ["TODO: 成果亮点"],
-    background: "TODO(内容): 项目背景与要解决的问题，待用户补充。",
-    solution: "TODO(内容): 解决方案与技术方案，待用户补充。"
+    highlights: ["标注规范设计", "质量抽检机制", "数据清洗流程"],
+    background: "模型效果的上限很大程度取决于训练数据质量，标注环节一旦混乱，后续微调和评估都会失真。",
+    solution: "设计统一标注规范，用脚本辅助清洗与校验，配合抽检机制保证标注一致性与可追溯。"
   }
 ];
 
